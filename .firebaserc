@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "sisvent-e836a": {
+      "hosting": {
+        "ng": [
+          "sisvent-e836a"
+        ]
+      }
+    }
+  }
+}
