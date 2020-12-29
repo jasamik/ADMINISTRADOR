@@ -1,77 +1,55 @@
-<div class="app-body">
-  <main class="main d-flex align-items-center">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8 mx-auto">
-          <div class="card-group">
-            <div class="card p-4">
-              <div class="card-body">
-                <form>
-                  <h1>Login</h1>
-                  <p class="text-muted">Ingresa a tu Cuenta</p>
-                  <div class="input-group mb-3">
-                    <div class="input-group-prepend">
-                      <span class="input-group-text"
-                        ><i class="icon-user"></i
-                      ></span>
-                    </div>
-                    <input
-                      type="text"
-                      class="form-control"
-                      placeholder="Username"
-                      autocomplete="username"
-                      required
-                    />
-                  </div>
-                  <div class="input-group mb-4">
-                    <div class="input-group-prepend">
-                      <span class="input-group-text"
-                        ><i class="icon-lock"></i
-                      ></span>
-                    </div>
-                    <input
-                      type="password"
-                      class="form-control"
-                      placeholder="Password"
-                      autocomplete="current-password"
-                      required
-                    />
-                  </div>
-                  <div class="row">
-                    <div class="col-6">
-                      <button type="button" class="btn btn-primary px-4">
-                        Ingresar
-                      </button>
-                    </div>
-                    <div class="col-6 text-right">
-                      <button type="button" class="btn btn-link px-0">
-                        Olvide mi password?
-                      </button>
-                    </div>
-                  </div>
-                </form>
-              </div>
-            </div>
-            <div
-              class="card text-white bg-primary py-5 d-md-down-none"
-              style="width: 44%"
-            >
-              <div class="card-body text-center">
-                <div>
-                  <h2>Registrarse</h2>
-                  <p>
-                    Si Ud. es un Nuevo Usuario puedo registrarse en el siguiente
-                    Link para que el administrador valide su Registro.
-                  </p>
-                  <button type="button" class="btn btn-primary active mt-3">
-                    Registrate Ahora!
-                  </button>
-                </div>
-              </div>
-            </div>
+<div class="limiter">
+  <div
+    class="container-login100"
+    style="background-image: url('../../../assets/login/images/bg-01.jpg')"
+  >
+    <div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-54">
+      <form class="login100-form validate-form">
+        <span class="login100-form-avatar">
+          <img
+            src="../../../assets/login/images/avatar-01.jpg"
+            alt="AVATAR"
+          /> </span
+        ><br />
+        <span class="login100-form-title p-b-49"> Administrador </span>
+        <div
+          class="wrap-input100 validate-input m-b-23"
+          data-validate="Debe ingresar Usuario"
+        >
+          <span class="label-input100">Usuario</span>
+          <input
+            class="input100"
+            type="text"
+            name="username"
+            placeholder="Ingrese su Usuario"
+          />
+          <span class="focus-input100" data-symbol="&#xf206;"></span>
+        </div>
+
+        <div
+          class="wrap-input100 validate-input"
+          data-validate="Debe ingresar password"
+        >
+          <span class="label-input100">Password</span>
+          <input
+            class="input100"
+            type="password"
+            name="pass"
+            placeholder="Ingrese su password"
+          />
+          <span class="focus-input100" data-symbol="&#xf190;"></span>
+        </div>
+        <br />
+
+        <div class="container-login100-form-btn">
+          <div class="wrap-login100-form-btn">
+            <div class="login100-form-bgbtn"></div>
+            <button class="login100-form-btn">Ingresar</button>
           </div>
         </div>
-      </div>
+      </form>
     </div>
-  </main>
+  </div>
 </div>
+
+<div id="dropDownSelect1"></div>

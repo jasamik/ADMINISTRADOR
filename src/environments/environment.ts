@@ -7,12 +7,11 @@ export const environment = {
   production: false,
 
   firebaseConfig: {
-    apiKey: "AIzaSyDzg8mIQkahRPluuMwAbRFx1cisZLs6xII",
-    authDomain: "sisvent-e836a.firebaseapp.com",
-    databaseURL: "https://sisvent-e836a.firebaseio.com",
-    projectId: "sisvent-e836a",
-    storageBucket: "sisvent-e836a.appspot.com",
-    messagingSenderId: "454125244843",
-    appId: "1:454125244843:web:ae28e39a10138ce32982ee",
+    apiKey: "AIzaSyAbafs7RdelH7rhckyROMa_t0ukxXn7b50",
+    authDomain: "dental-af409.firebaseapp.com",
+    projectId: "dental-af409",
+    storageBucket: "dental-af409.appspot.com",
+    messagingSenderId: "641025995417",
+    appId: "1:641025995417:web:65b12fe6a6de48a1cd3e08",
   },
 };
